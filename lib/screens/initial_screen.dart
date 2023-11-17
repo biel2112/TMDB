@@ -5,7 +5,7 @@ import 'package:nosso_primeiro_projeto/models/movie.dart';
 import 'package:nosso_primeiro_projeto/services/tmdb_service.dart';
 import 'package:nosso_primeiro_projeto/utils/app_colors.dart';
 
-//Tela Inicial
+
 
 // ignore: constant_identifier_names
 enum MovieOrder { Recent, Alphabetical }
