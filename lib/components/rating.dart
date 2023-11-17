@@ -13,7 +13,7 @@ class Rating extends StatelessWidget {
   Widget build(BuildContext context) {
     double normalizedScore = rating.clamp(0, 10);
     int filledStars = (normalizedScore / 2).round();
-    bool hasHalfStar = filledStars < normalizedScore / 2;
+    bool hasHalfStar = filledStars < (normalizedScore / 2);
 
     return Row(
       children: List.generate(5, (index) {
